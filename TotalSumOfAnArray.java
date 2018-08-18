@@ -11,9 +11,14 @@ public class TotalSumOfAnArray {
  */
 	public static int getTotalSumFromArray(int [] arrNum){
 		int sum = 0;
-		for(int i = 0; i < arrNum.length; i++){
+		//traditional for loop
+		/*for(int i = 0; i < arrNum.length; i++){
 			sum +=arrNum[i];
-		}
+		}*/
+		//newer for loop
+		for(int i : arrNum)
+			sum += i;
+		
 		System.out.println("Average number is :"+sum/arrNum.length);
 		return sum;
 	}

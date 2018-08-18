@@ -1,7 +1,9 @@
 import java.util.Arrays;
 
-/*
- * Write a Java program to sort a numeric array and a string array.
+/**
+ * Java program to sort a numeric array and a string array.
+ * @author Mohammed
+ *
  */
 public class SortNumericAndStringArray {
 	
