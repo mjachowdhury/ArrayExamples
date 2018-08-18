@@ -6,6 +6,10 @@ import java.util.Arrays;
  */
 public class RemoveSpecificElementFromArray {
 	
+	/**
+	 * This method will remove specific element from the array
+	 * @param arrNum
+	 */
 	static void removeFromArray(int [] arrNum){
 		
 		int removeIndex = 0;//whatever number will pass that index number will be removed
