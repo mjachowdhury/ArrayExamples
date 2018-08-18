@@ -1,4 +1,8 @@
-
+/**
+ * Java program to test if an array contains a specific value
+ * @author Mohammed
+ *
+ */
 public class CheckSpecificElementInArray {
 
 	static boolean findSpecificElement(int[] arrNum, int item) {
