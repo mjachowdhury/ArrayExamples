@@ -15,12 +15,13 @@ public class FindArrayIndexElement {
 		int i = 0;
 		while (i < arrNum.length) {
 			if (arrNum[i] == indexItem) {
-				return i;//will return index no
+				return i;// will return index no
 			} else {
-				i = i + 1; //if not found i position will increase by 1 and will check next index
+				i = i + 1; // if not found i position will increase by 1 and
+							// will check next index
 			}
 		}
-		return -1;//if not found will return - 1
+		return -1;// if not found will return - 1
 	}
 
 	public static void main(String[] args) {
